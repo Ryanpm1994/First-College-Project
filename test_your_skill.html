@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Test Your Skill</title>
+<link href="css/materialize.min.css" rel="stylesheet">
+<link href="css/my_styles.css" rel="stylesheet">
+</head>
+
+<body>
+	<nav class="navbar main_navbar">
+    	<div class="row">
+    		<div class="navbar-wrapper col s12 m12 lg12">
+        		<a href="index_page.html" class="brand-logo right">LOGO</a>
+            		<ul class="left hide-on-med-and-down">
+    					<li><a href="general_info_page.html">General Information Page</a></li>
+    					<li><a href="revision_page.html">French Revision Page</a></li>
+                        <li><a href="revision_page_cont.html">French Revision Page Cont</a></li>
+                        <li class="active"><a href="test_your_skill.html">Test Your Skills</a></li>
+ 					</ul>
+  					<ul id="slide-out" class="side-nav main_side_nav">
+                    	<li class="side_list"><a class="side_text" href="general_info_page.html">General Information Page</a></li>
+    					<li class="side_list"><a class="side_text" href="revision_page.html">French Revision Page</a></li>
+                        <li class="side_list"><a class="side_text" href="revision_page_cont.html">French Revision Page Cont</a></li>
+                        <li class="side_list active"><a class="side_text" href="test_your_skill.html">Test Your Skills</a></li>
+  					</ul>
+  						<a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+        	</div>
+  		</div>
+    </nav>
+    
+    	<div class="row main-content">            
+         <div class="col s12 m12 l12">
+        	<div class=" card-panel card_content card_size_game medium">
+            
+            <div class="container">
+				<span id="score"></span>
+				<div class="clear"></div>
+					<hr/>
+				<div id="leftCol">
+				<ul id="source">
+				</ul>
+				</div>
+				<div id="rightCol">
+					<ul id="target">
+					</ul>
+				</div>
+			</div>
+
+		<div id="dialog-complete" title="Well Done!">
+		  <p><span class="ui-icon ui-icon-check"></span>
+		  Well done. You have completed the quiz successfully.</p>
+		</div>
+        	
+      	 </div>            
+        </div>
+        </div>
+        <footer class="footer main_footer_purp">
+        	
+        		<div class="row">
+        			<div class="col s12 m6 l3">
+                    	<div class="footer-copyright">
+                        	<p class="white-text">Made by Ryan Miller &copy; 2015</p>
+                        </div>
+            		</div>
+        		</div>
+        </footer>
+
+
+
+
+
+<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script src="js/materialize.min.js" type="text/javascript"></script>
+<script src="js/my_js.js" type="text/javascript"></script>
+<script src="js/jquery-ui.min.js"></script>
+</body>
+</html>

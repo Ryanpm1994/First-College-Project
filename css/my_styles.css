@@ -1,0 +1,232 @@
+@charset "utf-8";
+/* CSS Document */
+
+p
+{
+	font: Helvetica, Arial, sans-serif;
+	font-size:18px;
+}
+
+body
+{
+	background-color:#FFF;
+}
+
+.navbar
+{
+	background-color:#00AAB4;
+}
+
+.main_navbar
+{
+	background-color:#9365B5;
+}
+
+.side_list
+{
+	padding:0px;
+	background-color:#FFF;
+}
+.side-nav
+{
+	background-color:#00AAB4;
+	padding:0px;
+}
+
+.main_side_nav
+{
+	background-color:#9365B5;
+}
+
+.side_text
+{
+	color:#000;
+	margin-bottom:2px;
+	margin-left:0px;
+	margin-right:0px;
+}
+
+.card_img_1
+{
+	width:100%;
+	height:100%;
+}
+
+.main_card_content
+{
+	width:100%;
+	height:100%;
+}
+
+.card_size_main_pic
+{
+	height:239px;
+}
+
+.card_size_main
+{
+	height:auto;
+}
+
+.card_size_game
+{
+	height:850px;
+}
+
+.img_text
+{
+	color:#46E4A7;
+}
+
+.content_1_pic
+{
+	
+}
+
+.main-pic_content
+{
+	background-color:#00AAB4;
+	padding:15px;
+	margin-top:20px;
+	margin-bottom:20px;
+
+}
+
+.main-content
+{
+	
+	background-color:#9365B5;
+	padding:15px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.logo
+{
+	padding-right:10px;
+}
+
+.footer
+{
+	background-color:#00AAB4;
+	color:#FFFFFF;
+	height:75px;
+	left:0;
+	
+}
+
+.main_footer
+{
+	background-color:#00AAB4;
+}
+
+.main_footer_purp
+{
+	padding-top:20px;
+	background-color:#9365B5;
+}
+
+form
+{
+	width:300px
+}
+
+body
+{
+	font-family:arial,verdana;
+	font-size:12px;
+	margin: 0px auto;
+}
+
+.slider
+{
+	width: 90%;
+	margin:0 auto;
+	text
+}
+
+			div.container
+			{
+				border: 1px solid #000;
+				float:left;
+				margin:0 auto;
+				padding:10px;
+				width: 100%;
+			}
+
+			#leftCol
+			{
+				float:left;
+				margin:0 auto;
+				padding:0;
+				padding-top:8px;
+			}
+
+			#rightCol
+			{
+				float:right;
+				margin:0 auto;
+				padding:0;
+			}
+
+			#source
+			{
+				list-style:none;
+				margin:0;
+				padding:0;
+				width:50%;
+				color:#04ADF4;
+			}
+			
+			li
+			{
+				font-size:18px;
+			}
+			
+			#source li 
+			{
+				cursor:pointer;
+			}
+			
+
+			#score
+			{
+				font-weight:bold;
+				float:left;
+				color:#0DDF4C;
+			}
+			
+			.clear
+			{
+				clear:both;
+			}
+
+			#dialog-complete
+			{
+				display:none;
+			}
+			
+			#dialog-complete span
+			{
+				float:left;
+				margin:0 7px 20px 0;
+			}
+			
+			#target
+			{
+				color:#04ADF4;
+			}
+			
+			.ui-droppable-disabled
+			{
+				color:#0DDF4C !important;	
+			}
+			.ui-state-error
+			{
+				color:#0DDF4C !important;
+			}
+
+
+
+
+
